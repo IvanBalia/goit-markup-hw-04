@@ -86,6 +86,8 @@ header a.link-active {
   color: var(--primary-text-color);
 }
 .header-contacts a {
+  display: flex;
+  align-items: center;
   color: var(--additional-text-color);
 }
 nav {
@@ -345,6 +347,13 @@ background-image: url(../images/astronaut.svg);
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: var(--additional-text-color);
+}
+.icon-convert:hover {
+fill: var(--hover-color);
+}
+.icon-smartphone:hover {
+  fill: var(--hover-color);
 }
 .team-social-networks {
   display: flex;
