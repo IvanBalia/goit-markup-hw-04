@@ -233,6 +233,7 @@ background-image: url(../images/astronaut.svg);
   width: 270px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: var(--primary-background-color);
   border-radius: 0px 0px 4px 4px;
   padding-top: 0;
   padding-bottom: 30px;
@@ -380,6 +381,12 @@ margin-left: 10px;
   width: 20px;
   fill: #AFB1B8;
 }
+.team-social-networks li:hover {
+  background-color: var(--hover-color);
+}
+.team-social-networks li:hover svg {
+ fill: var(--primary-background-color); 
+}
 .customers-list {
   display: flex;
   margin: 0 -15px;
@@ -396,6 +403,14 @@ margin-left: 10px;
 }
 .customers-list svg {
   height: 52px;
+  fill: var(--additional-text-color);
+}
+.customers-list a:hover svg {
+  fill: var(--hover-color);
+}
+.customers-list a:hover {
+  border: var(--hover-color) 1px solid;
+  border-radius: 4px;
 }
 .customers-list li {
   display: flex;
