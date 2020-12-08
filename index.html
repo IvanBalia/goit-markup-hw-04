@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize.git">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+        <nav>
+            <a href="/"><img src="./images/WebStudioBlack.png" alt="logo WebStudio"></a>
+            <ul class="header-nav">
+                <li>
+                    <a class="link-active" href="./index.html" class="link">Студия</a>
+                </li>
+                <li>
+                    <a href="./portfolio.html" class="link">Портфолио</a>
+                </li>
+                <li>
+                    <a href="" class="link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="header-contacts">
+            <li>
+                <svg class="icon-convert">
+                    <use href="../images/symbol-defs.svg#icon-envelope-hover"></use>
+                </svg>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+                <svg class="icon-smartphone">
+                    <use href="../images/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+        </ul>
+        </div>
+    </header>
+    <main>
+        <div class="overlay">
+        <section class="hero-section">
+            <div class="container">
+            <h1>эффективные решения для вашего бизнеса</h1>
+            <button type="submit" class="hero-button">Заказать услугу</button>
+            </div>
+        </section>
+        </div>
+        <section class="features-section">
+            <!--<h2></h2>-->
+            <div class="container">
+            <ul>
+                <li>
+                    <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+                <li>
+                    <h3>ПУНКТУАЛЬНОСТЬ</h3>
+                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+                <li>
+                    <h3>ПЛАНИРОВАНИЕ</h3>
+                    <p>Равным образом консультация с<br>широким активом в значительной степени обуславливает.</p>
+                </li>
+                <li>
+                    <h3>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                    <p>Значимость этих проблем настолько<br>очевидна, что реализация плановых<br>заданий.</p>
+                </li>
+            </ul>
+            </div>
+        </section>
+        <section class="product-section">
+            <div class="container">
+            <h2>Чем мы занимаемся</h2>
+            <ul>
+                <li>
+                    <img src="./images/image_1.jpg" alt="backend development" width="370">
+                </li>
+                <li>
+                    <img src="./images/image_2.jpg" alt="mobile apps" width="370">
+                </li>
+                <li>
+                    <img src="./images/image_6.jpg" alt="web design" width="370">
+                </li>
+            </ul>
+            </div>
+        </section>
+        <section class="team-section">
+            <div class="container">
+            <h2>Наша команда</h2>
+            <ul>
+                <li>
+                    <img src="./images/image_7.jpg" alt="Игорь Демьяненко" width="270">
+                    <h3>Игорь Демьяненко</h3>
+                    <span>Product Designer</span>
+                    <ul class="team-social-networks">
+                        <li>
+                            <a href="">
+                                <svg class="icon-instagram-21" width="20">
+                                <use href="../images/symbol-defs.svg#icon-instagram-21"></use>
+                                </svg> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <svg class="icon-twitter-11" width="20">
+                                    <use href="../images/symbol-defs.svg#icon-twitter-11"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <svg class="icon-facebook-11" width="20">
+                                    <use href="../images/symbol-defs.svg#icon-facebook-11"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <svg class="icon-linkedin-1" width="20">
+                                    <use href="../images/symbol-defs.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="./images/image_8.jpg" alt="Ольга Репина" width="270">
+                    <h3>Ольга Репина</h3>
+                    <span>Frontend Developer</span>
+                </li>
+                <li>
+                    <img src="./images/image_9.jpg" alt="Николай Тарасов" width="270">
+                    <h3>Николай Тарасов</h3>
+                    <span>Marketing</span>
+                </li>
+                <li>
+                    <img src="./images/image_10.jpg" alt="Михаил Ермаков" width="270">
+                    <h3>Михаил Ермаков</h3>
+                    <span>UI Designer</span>
+                </li>
+            </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-section">
+        <div class="container">
+        <img src="./images/WebStudio.png" alt="logo WebStudio">
+        <address>
+            <ul>
+                <li class="adress">г. Киев, пр-т Леси Украинки, 26</li>
+                <li class="contacts">info@example.com</li>
+                <li class="contacts">+38 099 111 11 11</li>
+            </ul>
+        </address>
+        </div>
+    </footer>
+</body>
+
+</html>
