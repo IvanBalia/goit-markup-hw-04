@@ -8,13 +8,14 @@
   --hover-color: #2196f3;
   --team-background-color: #f5f4fa;
   --test-tomato: #ffffff;
+  --color3: #afb1b8;
 }
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-section {
+* {
   margin: 0;
 }
 button
@@ -23,6 +24,9 @@ body {
 }
   font-family: "Roboto", sans-serif;
   background-color: var(--primary-background-color);
+  margin: 0;
+}
+html {
   margin: 0;
 }
 ul {
@@ -219,11 +223,11 @@ background-image: url(../images/astronaut.svg);
   padding-bottom: 94px;
 }
 
-.team-section ul {
+.team {
   display: flex;
   margin: 50px -15px 0;
 }
-.team-section li {
+.team-item {
   width: 270px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -241,6 +245,7 @@ background-image: url(../images/astronaut.svg);
 .team-section span {
   font-weight: 400;
   color: var(--additional-text-color);
+  margin-bottom: 16px;
 }
 .footer-section {
   background-color: var(--footer-background-color);
@@ -346,6 +351,7 @@ background-image: url(../images/astronaut.svg);
   align-items: center;
   margin-left: 32px;
   margin-right: 32px;
+  margin-top: 0px;
   padding: 0;
 }
 .team-social-networks li {
@@ -357,10 +363,52 @@ background-image: url(../images/astronaut.svg);
 .team-social-networks li:not(:first-child) {
 margin-left: 10px;
 }
-.icon-instagram-21,
-.icon-twitter-11,
-.icon-facebook-11,
+.icon-instagram-2,
+.icon-twitter-1,
+.icon-facebook-1,
 .icon-linkedin-1 {
   height: 20px;
   width: 20px;
+  fill: #AFB1B8;
+}
+.customers-list {
+  display: flex;
+  margin: 0 -15px;
+  align-items: center;
+}
+.customers-list a {
+  display: block;
+  display: flex;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  border: #AFB1B8 1px solid;
+  border-radius: 4px;
+}
+.customers-list svg {
+  height: 52px;
+}
+.customers-list li {
+  display: flex;
+  display: block;
+  width: 170px;
+  margin: 0 15px;
+  align-items: center;
+  justify-content: center;
+}
+.customer-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  font-family: Roboto;
+  background-color: var(--primary-background-color);
+}
+.customer-section h2 {
+  margin-bottom: 50px;
+  font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.166667;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
 }
