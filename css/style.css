@@ -250,7 +250,7 @@ h1 {
   margin-bottom: 16px;
 }
 .footer-section {
-  background-color: var(--footer-background-color);
+  background-color: var(--hero-background-color);
   color: var(--invert-text-color);
   text-align: left;
   font-size: 14px;
